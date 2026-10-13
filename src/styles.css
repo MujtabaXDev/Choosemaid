@@ -173,4 +173,132 @@
   .hero-trust {
     margin-top:28px;
   }
+
+  .inner-hero {
+    padding:48px 17px 42px;
+  }
+
+  .inner-hero h1,
+  .pricing-main .inner-hero h1 {
+    max-width:360px;
+    font-size:clamp(28px, 8vw, 32px);
+    line-height:1.12;
+  }
+
+  .inner-hero p,
+  .pricing-main .inner-hero p {
+    max-width:355px;
+    font-size:14px;
+  }
+
+  .inner-section {
+    width:100%;
+    padding:40px 17px 65px;
+  }
+
+  .pricing-page .pricing-grid {
+    width:100%;
+    max-width:420px;
+    grid-template-columns:1fr;
+    gap:22px;
+  }
+
+  .pricing-page .price-card {
+    width:100%;
+    padding:25px 20px;
+    transform:none;
+  }
+
+  .pricing-page .price-card.popular-plan {
+    transform:none;
+  }
+
+  .pricing-page .price-card li {
+    align-items:flex-start;
+    font-size:13px;
+    line-height:1.4;
+  }
+
+  .pricing-page .guarantee {
+    width:100%;
+    max-width:420px;
+    margin-top:24px;
+  }
+
+  .home-steps,
+  .promise-grid,
+  .home-plan-grid,
+  .testimonial-grid {
+    grid-template-columns:1fr;
+  }
+
+  .home-steps article:not(:last-child)::after {
+    display:none;
+  }
+
+  .step-trust {
+    flex-direction:column;
+    align-items:center;
+    gap:9px;
+  }
+
+  .agency-banner {
+    display:block;
+    margin:20px 17px 30px;
+    padding:30px 24px;
+  }
+
+  .agency-visual {
+    width:100%;
+    margin-top:28px;
+    transform:none;
+  }
+
+  .promise-grid article {
+    min-height:0;
+  }
+
+  .comparison-card {
+    padding:20px 15px;
+    overflow-x:auto;
+  }
+
+  .comparison-card table {
+    min-width:520px;
+  }
+
+  .directory-layout,
+  .content-columns,
+  .contact-layout {
+    grid-template-columns:1fr;
+  }
+
+  .directory-page .directory-profile-grid {
+    grid-template-columns:1fr;
+  }
+
+  .directory-toolbar {
+    width:100%;
+  }
+
+  .filters {
+    width:100%;
+  }
+
+  .filters select {
+    width:100%;
+  }
+
+  .steps,
+  .guide-grid {
+    grid-template-columns:1fr;
+  }
+
+  .visa-service-cards {
+    grid-template-columns:1fr;
+  }
+
+  .footer-main {
+    grid-template-columns:1fr 1fr;
+  }
 }
